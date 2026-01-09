@@ -1,0 +1,121 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0f172a;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+.checkbox {
+  margin: 10px 0;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #94a3b8;
+}
+
+.secondary {
+  background: #64748b;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.total {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(3, 3, 3, 0.55);
+  z-index: -1;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: rgba(15, 23, 42, 0.9);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.logo {
+  height: 40px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 14px;
+  margin-top: 125px;
+  background: rgba(15, 23, 42, 0.9);
+  color: white;
+  font-size: 14px;
+}
+
+
