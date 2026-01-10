@@ -20,8 +20,10 @@ export default function App() {
     { nama: "Sistem Terdistribusi", sks: 3 },
     { nama: "Pemrograman Web Lanjut", sks: 3 },
     { nama: "Rekayasa Perangkat Lunak", sks: 3 },
+    { nama: "Pemrograman Sisi Klien", sks: 3 },
     { nama: "Keamanan Jaringan", sks: 2 },
     { nama: "Data Mining", sks: 3 },
+    { nama: "Kriptografi", sks: 3 },
   ];
 
   // =========================
@@ -152,9 +154,13 @@ export default function App() {
             <input value={nim} onChange={(e) => setNim(e.target.value)} />
             <label>Nama</label>
             <input value={nama} onChange={(e) => setNama(e.target.value)} />
+            <div className="action">
             <button disabled={!nim || !nama} onClick={() => setPage("krs")}>
               Selanjutnya →
             </button>
+            <button onClick={() => setPage("peserta")}>
+                Lihat Semua Mahasiswa
+              </button></div>
           </div>
         )}
 
