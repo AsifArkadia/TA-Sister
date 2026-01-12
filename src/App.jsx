@@ -251,7 +251,7 @@ export default function App() {
 
       {/* FOOTER */}
       <footer className="footer">
-        © 2026 Sistem Terdistribusi
+        Asif © 2026 Sistem Terdistribusi
       </footer>
     </>
   );
